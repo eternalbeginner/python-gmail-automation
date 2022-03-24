@@ -1,2 +1,7 @@
+from src import Driver
+
 if __name__ == "__main__":
-  print("Hello World!")
+  driver = Driver()
+  # performer = Performer(driver)
+  
+  driver.initialize()
